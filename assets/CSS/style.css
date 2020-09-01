@@ -1,0 +1,110 @@
+.parent {
+    display: flex;
+    font-family: Mono;
+    color: white;
+    flex-direction: column;
+    margin: 70px;
+}
+ 
+.div1 { 
+     flex: 1;
+   align-items: center; 
+}
+
+.div2 { 
+    display: flex;
+    flex: 4; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 63px;
+
+}
+
+.navigation {
+    display: flex;
+    flex: 1;
+    
+}
+
+.Menu {
+    width: 805px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+@font-face {
+    font-family: 'Mono';
+    src: url('../Fonts/Mono.woff2') format('woff2'),
+        url('../Fonts/Mono.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+   
+}
+body {
+    background-color: black;
+}
+.LandingPage {
+    font-family: Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
+    line-height: 194px;
+    text-transform: lowercase;
+    text-shadow: 0px 0px 7px #FFF972;
+    display: flex;
+    
+
+   
+}
+.H1 {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+.IMG {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+.module-border-wrap {
+    width: 320px;
+    height: 134px;
+    position: relative;
+    background: linear-gradient(
+      to bottom,
+      #9b51e0 0%,
+      #2f80ed 35%,
+      #eb5757 66%,
+      #fff972 100%
+    );
+    padding: 6px;
+    text-align: center;
+    border-radius: 85px;
+    filter: drop-shadow(0px 0px 6px #9b51e0);
+  }
+  
+  .module {
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-radius: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Mono;
+    font-style: ;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 63px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px #FFF972;
+  }
