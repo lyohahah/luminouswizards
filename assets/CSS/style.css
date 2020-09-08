@@ -4,11 +4,16 @@
     color: white;
     flex-direction: column;
     margin: 70px;
+    position: sticky;
+    top: 0px;
 }
  
 .div1 { 
-     flex: 1;
-   align-items: center; 
+    display: flex;
+    flex: 1;
+    align-items: center; 
+    position: sticky;
+    top: 0px;;
 }
 
 .div2 { 
@@ -20,13 +25,17 @@
     font-weight: 500;
     font-size: 65px;
     line-height: 63px;
+    position: sticky;
+    top: 0px;
 
 }
 
-.navigation {
+.Header {
     display: flex;
     flex: 1;
-    
+    position: sticky;
+    top: 0px;
+    background-color: black;
 }
 
 .Menu {
@@ -36,6 +45,8 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
+    position: sticky;
+    top: 0px;
 }
 @font-face {
     font-family: 'Mono';
