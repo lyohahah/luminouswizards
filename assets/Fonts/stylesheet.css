@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Mono';
-    src: url('Mono.woff2') format('woff2'),
-        url('Mono.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Neon Absolute Sans';
+    src: url('NeonAbsoluteSansRegular.woff2') format('woff2'),
+        url('NeonAbsoluteSansRegular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
