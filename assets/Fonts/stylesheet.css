@@ -1,8 +1,44 @@
 @font-face {
+    font-family: 'Absolute Neon Script';
+    src: url('AbsoluteNeonScriptRegular.woff2') format('woff2'),
+        url('AbsoluteNeonScriptRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Devanesa';
+    src: url('Devanesa.woff2') format('woff2'),
+        url('Devanesa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Neon Absolute Sans';
     src: url('NeonAbsoluteSansRegular.woff2') format('woff2'),
         url('NeonAbsoluteSansRegular.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Devanesa';
+    src: url('Devanesa-Regular.woff2') format('woff2'),
+        url('Devanesa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Devanesa';
+    src: url('Devanesa-Bold.woff2') format('woff2'),
+        url('Devanesa-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
