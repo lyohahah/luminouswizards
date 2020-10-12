@@ -1,0 +1,132 @@
+.LandingPage {
+    display: flex;
+    position: relative;
+}
+.IMG {
+    display: flex;
+    z-index: 0;
+    flex: 2;
+    margin-left: -200px;
+    max-width: 728px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.SLOGAN {
+    display: flex;
+    flex: 3;
+    font-family: "Neon Absolute Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 120px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 7px #fff972;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 50px;
+    z-index: 1;
+    
+}
+
+.button-container a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding: 37px 48px;
+    border: 2px solid #9b51e0;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    margin-top: 20px;
+    font-family: "Neon Absolute Sans";
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.button-container a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    color: black;
+    background: #9b51e0;
+    transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.button-container a:hover {
+    background: #9b51e0;
+}
+
+.button-container a:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+}
+
+.button-container {
+    padding-top: 30px;
+    padding-bottom: 270px;
+    filter: drop-shadow(0px 0px 20px #8500f3);
+}
+
+@media (max-width: 768px){
+    .LandingPage {
+        position: relative;
+        width: 100vw;
+        height: 90vh;
+        align-items: flex-end;
+        min-height: 450px;
+    }
+    .SLOGAN {
+        padding-bottom: 0;
+        padding-top: 0;
+        flex-direction: column;
+        padding-left: 30px;
+        font-size: 85px;
+    }
+    .button-container {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .IMG {
+        position: absolute;
+        margin-left: 0;
+        top: 0;
+    }
+    .IMG img {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .LandingPage {
+       height: 70vh;
+    }
+    .SLOGAN {
+        font-size: 35px;
+        line-height: 45px;
+        padding-left: 20px;
+
+    }
+    .button-container {
+        padding-bottom: 0;
+        padding-top: 0; 
+    }
+    .button-container a {
+        font-size: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+}

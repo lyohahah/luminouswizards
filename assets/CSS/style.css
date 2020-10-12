@@ -286,7 +286,7 @@ hr {
 }
 .p {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: "Devanesa";
     font-style: normal;
     font-weight: normal;
@@ -296,9 +296,10 @@ hr {
     text-align: left;
     padding-top: 18px;
     padding-right: 130px;
+    align-items: center;
 }
 .About-pic {
-    padding-right: 75px;
+    padding-left: 120px;
 }
 .about__wrapper-2 {
     margin-top: -42px;

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    z-index: 99;
+    width: 100%;
+    justify-content: space-between;
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+hr {
+    border: 3px solid #9b51e0;
+    background-color: #9b51e0;
+    box-shadow: 0px 0px 15px #9b51e0;
+    width: 90%;
+    border-radius: 10px;
+    z-index: 99;
+    align-self: center;
+}
+
+h1 {
+    font-family: "Neon Absolute Sans";
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #fff972;
+    margin: 0px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+@media (max-width: 768px) {
+    hr {
+        border: 1px solid #9b51e0;
+
+    }
+}
+
+@font-face {
+    font-family: "Absolute Neon Script";
+    src: url("../Fonts/AbsoluteNeonScriptRegular.woff2") format("woff2"),
+        url("../Fonts/AbsoluteNeonScriptRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Devanesa";
+    src: url("../Fonts/Devanesa.woff2") format("woff2"), url("../Fonts/Devanesa.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neon Absolute Sans";
+    src: url("../Fonts/NeonAbsoluteSansRegular.woff2") format("woff2"),
+        url("../Fonts/NeonAbsoluteSansRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Devanesa";
+    src: url("../Fonts/Devanesa-Regular.woff2") format("woff2"), url("../Fonts/Devanesa-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Devanesa";
+    src: url("../Fonts/Devanesa-Bold.woff2") format("woff2"), url("../Fonts/Devanesa-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
