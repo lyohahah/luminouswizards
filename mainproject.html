@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="assets/CSS/navigator.css">
         <link rel="stylesheet" href="assets/CSS/landingpage.css">
         <link rel="stylesheet" href="assets/CSS/about.css">
+        <link rel="stylesheet" href="assets/CSS/embla.css">
+        <link rel="stylesheet" href="assets/CSS/shows.css">
+
         <meta property="og:title" content="LED Show 'Luminous Wizards'">
         <meta property="og:description" content="Light up your event!">
         <meta property="og:image" content="https://lyohahah.github.io/luminouswizards/assets/img/OG.jpg">
@@ -53,8 +56,8 @@
                 <span class="about__title">ABOUT US</span>
                 <div class="about__wrapper-1">
                     <div class="About-text">
-                        <span>The Project</span>
-                        <div class="p">
+                        <span style="left: -900px;">The Project</span>
+                        <div class="p" style="left: -1000px;">
                             <p>
                                 “Luminous Wizards” was established in 2016, by a group of professional dancers with the
                                 idea
@@ -67,17 +70,17 @@
                             </p>
                         </div>
                     </div>
-                    <div class="About-pic">
+                    <div class="About-pic" style="right: -1000px">
                         <img src="assets/img/Mask Group.png" alt="Neon Pirate">
                     </div>
                 </div>
                 <div class="about__wrapper-2">
-                    <div class="About-pic">
+                    <div class="About-pic" style="left: -1000px">
                         <img src="assets/img/Jackson.jpg" alt="michael jackson">
                     </div>
                     <div class="About-text">
-                        <span>The Team</span>
-                        <div class="p">
+                        <span style="right: -900px">The Team</span>
+                        <div class="p" style="right: -1000px">
                             <p>
                                 Our team team consists on 8 people (7 dancers + technician).
                             </p>
@@ -93,8 +96,8 @@
                 </div>
                 <div class="about__wrapper-3">
                     <div class="About-text">
-                        <span>Our Experience</span>
-                        <div class="p">
+                        <span style="left: -900px;">Our Experience</span>
+                        <div class="p" style="left: -1000px;">
                             <p>
                                 Over the past 6 years, our show ballet has visited many places in our world. And
                                 wherever we
@@ -111,24 +114,45 @@
                             </p>
                         </div>
                     </div>
-                    <div class="About-pic">
+                    <div class="About-pic" style="right: -1000px;">
                         <img src="assets/img/Hunter.jpg" alt="Neon hunter">
                     </div>
                 </div>
             </div>
             <hr class="about">
-            <h1 id="SHOWS">SHOWS</h1>
-            <div class="SHOWS-SECTION">
-                <div class="show1">
-                    <img class="show1__img" src="assets/img/Show 1.png" alt="show 1">
-                </div>
-                <div class="show2">
-                    <img class="show2__img" src="assets/img/Show 2.png" alt="show 2">
-                </div>
-                <div class="show3">
-                    <img class="show3__img" src="assets/img/Show 3.png" alt="show 3">
-                </div>
+            <div id="SHOWS">
+                <h1 class="h1helper" style='left: -1000px'>SHOWS</h1>
+                <div class="SHOWS-SECTION" style='left: -1700px'>
+                    <!-- Embla -->
+                    <div class="embla" id="embda">
+                        <div class="embla__viewport">
+                            <div class="embla__container">
+                                <div class="embla__slide">
+                                    <div class="embla__slide__inner">
+                                        <img class="embla__slide__img" src="./assets/img/Show 1.png" />
+                                    </div>
+                                </div>
+                                <div class="embla__slide">
+                                    <div class="embla__slide__inner">
+                                        <img class="embla__slide__img" src="./assets/img/Show 2.png" />
+                                    </div>
+                                </div>
+                                <div class="embla__slide">
+                                    <div class="embla__slide__inner">
+                                        <img class="embla__slide__img" src="./assets/img/Show 3.png" />
+                                    </div>
+                                </div>                     
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Dots -->
+                    <div class="embla__dots"></div>
+
+                    <script type="text/template" id="embla-dot-template">
+                        <button class="embla__dot" type="button"></button>
+                    </script>
+                </div>
             </div>
             <hr>
             <!-- <p id="BOOK US" class="bookUs">Book us</p>
@@ -202,7 +226,9 @@
         </div>
 
 
-
+    <script src="https://unpkg.com/embla-carousel@latest/embla-carousel.umd.js"></script>
+    <script src='./assets/js/index.js'></script>     
+    <script src='./assets/js/observble.js'></script>     
     </body>
 
 </html>

@@ -1,6 +1,5 @@
-h1 {
+/* h1 {
     font-family: "Neon Absolute Sans";
-
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
@@ -11,21 +10,31 @@ h1 {
     margin: 0px;
     text-align: center;
     padding-top: 55px;
+} */
+#SHOWS {
+    position: relative;
+}
+.h1helper {
+    position: relative;
+    transition: all 0.5s ease-in-out;
 }
 
 
 .SHOWS-SECTION {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     padding: 48px 60px 70px 48px;
-    margin-bottom: 270px;
+    margin-bottom: 270px; */
     position: relative;
+    transition: all 0.5s ease-in;
+
 }
-.SHOWS-SECTION::after {
+
+/* .SHOWS-SECTION::after {
     content: "";
     position: absolute;
     bottom: -270px;
@@ -79,4 +88,4 @@ h1 {
     width: 101px;
     height: 91px;
     background: url("../img/right-arrow.png") no-repeat;
-}
+} */

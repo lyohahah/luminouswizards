@@ -1,0 +1,134 @@
+.embla {
+    position: relative;
+    border:1px solid #9B51E0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 710px;
+  }
+  
+  .embla__viewport {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .embla__viewport.is-draggable {
+    cursor: move;
+    cursor: grab;
+  }
+  
+  .embla__viewport.is-dragging {
+    cursor: grabbing;
+  }
+  
+  .embla__container {
+    display: flex;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-left: -10px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .embla__slide {
+    position: relative;
+    min-width: 80%;
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .embla__slide__inner {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .embla__slide__img {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    transform: translate(-50%, -50%);
+  }
+  
+  .embla__button {
+    outline: 0;
+    cursor: pointer;
+    background-color: transparent;
+    touch-action: manipulation;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    fill: #9B51E0;
+    padding: 0;
+  }
+  
+  .embla__button:disabled {
+    cursor: default;
+    opacity: 0.3;
+  }
+  
+  .embla__button__svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .embla__button--prev {
+    left: 27px;
+  }
+  
+  .embla__button--next {
+    right: 27px;
+  }
+  
+  .embla__dots {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .embla__dot {
+    background-color: #9B51E0;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 0px 4px #9B51E0);
+  }
+
+  .embla__dot.is-selected {
+    background-color: transparent;
+    border: 2px solid #9B51E0;
+    opacity: 1;
+  }
+  
+  .embla video {
+    width: 100%;
+    height: 100%;
+  }
